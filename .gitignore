@@ -3,6 +3,12 @@ node_modules/
 .pnp
 .pnp.js
 
+# Python virtual environments
+venv/
+env/
+.venv/
+.env/
+
 # Testing
 coverage/
 
@@ -141,3 +147,4 @@ Desktop.ini
 # Temporary files
 *.tmp
 *.temp
+.vercel
