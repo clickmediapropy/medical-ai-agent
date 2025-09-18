@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "medical-monitor-jorge/app.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "medical-monitor-jorge/app.py"
+    }
+  ]
+}
